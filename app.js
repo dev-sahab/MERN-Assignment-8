@@ -19,10 +19,10 @@ stuData.map( (data, index) => {
             Name    :   ${data.name}
             Class   :   ${data.class}
             Roll    :   ${data.roll}
-    ============================================================================================
-        Subject             Mark            GPA             Grade           Result & CGPA
-        Bangla              ${data.bangla}              ${getGPA(data.bangla)}               ${getGrade(data.bangla)}                   ${result}
-        English             ${data.english}              ${getGPA(data.english)}               ${getGrade(data.english)}                    ${cgpa.toFixed(2)}
+    ===================================================================================================
+        Subject             Mark            GPA             Grade           Result           CGPA
+        Bangla              ${data.bangla}              ${getGPA(data.bangla)}               ${getGrade(data.bangla)}               ${result}           ${cgpa.toFixed(2)}
+        English             ${data.english}              ${getGPA(data.english)}               ${getGrade(data.english)}                    
         Maths               ${data.math}              ${getGPA(data.math)}               ${getGrade(data.math)}
         Science             ${data.science}              ${getGPA(data.science)}               ${getGrade(data.science)}
         Social Science      ${data.social}              ${getGPA(data.social)}               ${getGrade(data.social)}
