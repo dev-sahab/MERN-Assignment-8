@@ -10,7 +10,7 @@ stuData.map( (data, index) => {
     let cgpa = getGPA(data.bangla) + getGPA(data.english) + getGPA(data.math) + getGPA(data.science) + getGPA(data.social) +  getGPA(data.religion);
     cgpa = cgpa/6; 
 
-    // if result got faild then cgpa will be 0
+    // if the result got 'failed' then cgpa will be 0
     result == 'Failed' ? cgpa = 0 : '';
 
     // console output
